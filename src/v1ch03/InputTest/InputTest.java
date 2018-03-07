@@ -20,6 +20,7 @@ public class InputTest {
 		System.out.println("你今年多大？ ");
 		int age = in.nextInt();
 
+		in.close();
 		// display output on console
 		System.out.println("你好， " + name + "，明年, 你就 " + (age + 1) + "岁了！");
 	}
